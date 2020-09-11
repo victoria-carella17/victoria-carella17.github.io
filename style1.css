@@ -1,0 +1,88 @@
+/*style1.css*/
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #fad4ae;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #faf1d6;
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media print {
+  .screen_only{
+    display:none;
+  }
+}
+
+h3{
+  color: #e96060;
+  text-align: center
+}
+
+h4{
+  color: #fdabae;
+}
+
+.box_table>table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align:center
+}
+
+.box_table>table, th, td{
+  border: 1px solid #768cce;
+  padding: 10px;
+}
+
+.box_table>table th{
+  background-color: #c3d6f2
+}
+
+.box_table>table tr:nth-child(odd){
+  background-color: #fbecd9
+}
+
+.box_table>table tr:hover{
+  background-color: #fad4ae
+}
