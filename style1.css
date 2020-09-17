@@ -4,7 +4,7 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 15%
+  width: 50%
 }
 
 .header {
@@ -12,12 +12,12 @@ img{
   text-align: center;
 }
 
-.topnav {
+.navbar {
   overflow: hidden;
   background-color: #fad4ae;
 }
 
-.topnav a {
+.navbar a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -26,7 +26,7 @@ img{
   text-decoration: none;
 }
 
-.topnav a:hover {
+.navbar a:hover {
   background-color: #faf1d6;
   color: black;
 }
@@ -68,11 +68,6 @@ h4{
     border-collapse: collapse;
     width: 100%;
     text-align:center
-}
-
-.box_table>table, th, td{
-  border: 1px solid #768cce;
-  padding: 10px;
 }
 
 .box_table>table th{
