@@ -11,8 +11,6 @@ document.addEventListener('DOMContentLoaded', function(){
                           <button class="remove"> Remove </button>`;
 
     li.innerHTML = new_task_html;
-    
-    li.innerHTML = document.querySelector('#task').value;
     document.querySelector('#tasks_list').append(li);
     document.querySelector('#task').value = '';
     return false;
