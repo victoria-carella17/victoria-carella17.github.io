@@ -3,33 +3,220 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equic="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <link href="spastyle.css" rel="stylesheet">
-    <script defer src="spa_quiz.js"></script>
-    <title>Programming Quiz</title>
-    </head>
-    <body>
+    <title> Welcome to Victoria's Profile </title>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      body{
+      font-family: Georgia;
+      padding: 10px;
+      background-color: #faf1d6
+      }
+      h2{
+      color: #c3d3c7;
+      text-align: left
+      }
+    </style>
+  </head>
+  <body>
 
-      <div class = "container">
-        <div id="question-container" class="hide">
-          <div id="question"> Question </div>
-          <div id="answer-buttons" class="btn-grid">
-            <button class="btn"> Answer 1</button>
-            <button class="btn"> Answer 2</button>
-            <button class="btn"> Answer 3</button>
-            <button class="btn"> Answer 4</button>
-          </div>
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <a class="navbar-brand" href="#">Menu</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#hobbies_anchor"> Interests/Hobbies </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#edu_anchor"> Education/Experience </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#albums_ranked"> Taylor Swift's Albums Ranked </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects_anchor"> CUS1172 Projects </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tasklistpage.html"> Create To Do List </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="quizpage.html"> Take Programming Quiz </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact_me"> Contact Me </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="row">
+      <div class="col-md-8">
+        <div class="container-fluid">
+          <h1 style="color:#4c8184; text-align:left"> Victoria's Profile </h1>
+          <h2>  Made for CUS1172  </h2>
+          <p> Hello, I'm Victoria Carella. I'm an Information Technology major with a concentration in Business Administration. I am in my senior year at St. John's University. </p>
         </div>
-          <div class="controls">
-            <button id="start-btn" class="start-btn btn"> Start Quiz </button>
-            <button id="next-btn" class="next-btn btn hide"> Next Question </button>
-          </div>
+      </div>
+      <div class="col-md-4">
+        <img src="victoria1.jpg" class="rounded">
+      </div>
+    </div>
+
+    <hr>
+
+    <div id="hobbies_anchor">
+      <h3> Interests and Hobbies </h3>
+      <p> In my free time I like to watch TV shows, read, listen to music, crochet, and knit. </p>
+    </div>
+
+    <hr>
+
+  <div id="edu_anchor">
+  <div class="row">
+      <div class="column">
+        <h3> Education </h3>
+        <p> I went to Notre Dame High School in Lawrenceville, NJ where I received my high school diploma. I currently attend St. John's University, and I am a senior hoping to receive my Bachelors Degree in Information Technology in the spring of 2021. </p>
       </div>
 
+      <div class="column">
+        <h3> Work Experience </h3>
+        <ul>
+          <li> Sales Person and Cashier at Carella's Chocolates & Gifts </li>
+          <li> Summer Intern at Princeton University in their Office of Information Technology </li>
+        </ul>
+      </div>
 
+      <div class="column">
+        <h3> Programming Skills </h3>
+        <ul>
+          <li> 3 years of experience using Java </li>
+          <li> 1 year of experience using SQL </li>
+          <li> limited experience with Python </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-    </body>
+    <hr>
+
+    <div id="faves_anchor">
+    <h3> Favorites </h3>
+    <h4> Favorite Song </h4>
+    <p> It's always changing, but right now anything by Phoebe Bridgers is at the top of my list, as well as Taylor Swift's new album Folklore. </p>
+    <iframe class="screen_only" width="560" height="315" src="https://www.youtube.com/embed/EgQQkQrPJ2I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h4> Favorite Movie </h4>
+    <p> I'm a big fan of romcoms, and currently I can't get enough of Netflix's movie adaptaion of the book Dumplin'. </p>
+    <iframe class="screen_only" width="560" height="315" src="https://www.youtube.com/embed/k86KDFh_q6E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h4> Favorite TV Show </h4>
+    <p> Comedies are always my go-to, and Parks & Recreation is one that I will always reach for if I need something to watch. </p>
+    <iframe class="screen_only" width="560" height="315" src="https://www.youtube.com/embed/Xcdhpn-DXTA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h4> Favorite Websites </h4>
+    <p> I spend a lot of my time on Twitter. Many artists, comedians, and celebrities I enjoy share things about thier lives, music, and new projects. Many of them make me laugh and it can be a nice escape. You are also able to speak directly to them, and sometimes they'll answer. <br> For example, my favorite artist that I mentioned above, Phoebe Bridgers, has a great twitter presence. She makes me laugh while keeping me up to date with her current projects and endeavors. Click <a href="https://twitter.com/phoebe_bridgers" target="_blank"> here </a> to visit her twitter page!</p>
+    </div>
+
+    <hr>
+
+    <div id="albums_ranked">
+    <h3> Taylor Swift's Albums Ranked </h3>
+    <p> I have been a fan of Taylor Swift for as long as I can remember. In this table I outline my ranking for each one of her eight studio albums </p>
+      <div class="box_table">
+        <table class="table">
+        <tr>
+          <th>Year</th>
+          <th>Album Name</th>
+          <th>My Rank</th>
+        </tr>
+        <tr>
+          <td>2012</td>
+          <td>Red</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>2008</td>
+          <td>Fearless</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>2020</td>
+          <td>folklore</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>2010</td>
+          <td>Speak Now</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>2019</td>
+          <td>Lover</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>2006</td>
+          <td>Taylor Swift</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>2014</td>
+          <td>1989</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <td>Reputation</td>
+          <td>8</td>
+        </tr>
+        </table>
+      </div>
+    </div>
+
+    <hr>
+
+    <div id="projects_anchor">
+    <h3> My Projects in This Class </h3>
+    <h4> Project 1 </h4>
+    <p> This HTML page, styled using css and bootstrap</p>
+    <h4> Project 2 </h4>
+    <p> The task list for project 2 can be found by clicking <a href="tasklistpage.html" target="_blank">"Create To Do List"</a> here or in the navigation menu at the top of the page.</p>
+    <h4> Project 3 </h4>
+    <p> Click <a href="quizpage.html" target="_blank"> here </a> to take a programming quiz!</p>
+    </div>
+
+    <hr>
+
+    <div id="contact_me">
+
+      <h3>Contact Me!</h3>
+      <form action="/action_page.php">
+        <div class="form-group">
+          <label for="name"> Enter Name </label>
+          <input type="text" class="form-control" placeholder="Enter Name" id="name">
+        </div>
+        <div class="form-group">
+          <label for="email"> Enter Email </label>
+          <input type="email" class="form-control" placeholder="Enter Email" id="email">
+        </div>
+        <div class="form-group">
+          <label for="textarea"> Enter Your Message </label>
+          <textarea class="form-control" placeholder="Add Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-secondary">Submit</button>
+      </form>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+
 </html>
