@@ -67,7 +67,9 @@ h4{
 .box_table>table{
     border-collapse: collapse;
     width: 75%;
-    text-align:center
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .box_table>table th{
@@ -80,9 +82,4 @@ h4{
 
 .box_table>table tr:hover{
   background-color: #fad4ae
-}
-
-.center{
-  margin-left: auto;
-  margin-right: auto;
 }
